@@ -25,7 +25,6 @@ public class AppMutxaAwards {
 
         System.out.println();
 
-
         Roberto.aplaudir();
         Chema.aplaudir();
         Matias.aplaudir();
@@ -34,17 +33,14 @@ public class AppMutxaAwards {
 
         System.out.println();
 
-
         Aznar.presentar();
         Aznar.darDiscurso("para solidarizarse con los afectados de la DANA");
 
         System.out.println();
 
-
         Premio primerPremio = new Premio(Categoria.MEJOR_ACTOR);
 
         System.out.println();
-
 
         Chema.esNominado(Categoria.MEJOR_ACTOR);
         Roberto.esNominado(Categoria.MEJOR_ACTOR);
@@ -53,16 +49,9 @@ public class AppMutxaAwards {
 
         System.out.println();
 
-
-        Chema.esNominado(Categoria.MEJOR_ACTOR);
-
-        System.out.println();
-
-
         Chema.ganarPremio(primerPremio);
 
         System.out.println();
-
 
         Roberto.aplaudir();
         Chema.aplaudir();
@@ -71,7 +60,6 @@ public class AppMutxaAwards {
         Pepa.aplaudir();
 
         System.out.println();
-
 
         Roberto.celebrarPremio(primerPremio);
         Chema.celebrarPremio(primerPremio);
@@ -113,9 +101,7 @@ public class AppMutxaAwards {
 
 
         System.out.println();
-
-        /* no se comenta*/
-
+        
         Aznar.darDiscurso("para introducir el siguiente premio: MEJOR_PELICULA");
 
         System.out.println();
