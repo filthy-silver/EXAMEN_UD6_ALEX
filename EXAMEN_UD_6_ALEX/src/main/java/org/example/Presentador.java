@@ -16,6 +16,7 @@ public class Presentador extends MutxaAwards implements AccionesAsistentes {
         System.out.println("El presentador " + nombre + " entrega el preimo " + premio.toString() + " a " + premio.getGanador());
     }
 
+    //Hacemos los overrides necesarios para las implementaciones y extensiones
     @Override
     public void obtenerDetalles() {
         System.out.println("El presentador es: " + nombre);

@@ -23,7 +23,7 @@ public class Artista extends MutxaAwards implements AccionesAsistentes {
 
     void ganarPremio(Premio premio){
             System.out.println("El artista " + nombre + " ha sido ganado a " + premio);
-            premio.setGanador(this);
+            premio.setGanador(this); //Al referenciar con 'This' meterá al propio objeto dentro del parámetro.
             listaPremios.add(premio);
     }
 

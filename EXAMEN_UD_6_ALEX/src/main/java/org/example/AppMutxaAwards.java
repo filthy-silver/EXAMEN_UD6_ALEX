@@ -69,6 +69,7 @@ public class AppMutxaAwards {
 
         System.out.println();
 
+        //Realizamos las pruebas en un try-catch para que no se pare el programa si lanza el error
 
         try {
             Matias.recogerPremio(primerPremio);
@@ -101,7 +102,7 @@ public class AppMutxaAwards {
 
 
         System.out.println();
-        
+
         Aznar.darDiscurso("para introducir el siguiente premio: MEJOR_PELICULA");
 
         System.out.println();
