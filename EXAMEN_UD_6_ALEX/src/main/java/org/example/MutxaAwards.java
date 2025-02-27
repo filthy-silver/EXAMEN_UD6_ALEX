@@ -1,4 +1,8 @@
 package org.example;
 
-public class MutxaAwards {
+public abstract class MutxaAwards {
+
+    int edicion;
+
+    public abstract void obtenerDetalles();
 }
